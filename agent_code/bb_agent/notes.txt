@@ -1,0 +1,40 @@
+features
+
+option1: 10^124 states
+    all 176 fields
+
+option2: 10^23 states
+    coords of self
+    coords of 3 agents
+    coords of 4 bombs
+    coords of nearest coin
+    coords of nearest crate
+
+option3: 10^14 states
+    coords of self
+    coords of closest agent
+    coords of 2 closest bombs
+    coords of nearest coin
+    coords of nearest crate
+
+option3: 10^14 states
+    wall above?
+    wall below?
+    wall left?
+    wall right?
+    map border?
+    vec to closest agent
+    vec to 2 dangerous bombs
+    vec to nearest coin
+    vec to nearest crate
+    crates present?
+    coins present?
+    number of bombs present
+
+option3: 10^4 states    (coin heaven only)
+    wall above?
+    wall below?
+    wall left?
+    wall right?
+    map border?
+    vec to nearest coin
